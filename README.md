@@ -6,10 +6,10 @@ This challenge is to simulate a toy robot moving on a 5x5 square board, the robo
 
 To run the Toy Robot App, first generate a CSV file in the following format:
 
-ACTION,X,Y,F
-PLACE,0,0,NORTH
-MOVE
-REPORT
+ACTION,X,Y,F  
+PLACE,0,0,NORTH  
+MOVE  
+REPORT  
 
 Next run the following command: `ruby -r "./lib/toy_robot_app.rb" -e "ToyRobotApp.call './data/test-data-1.csv'"` replacing `./data/test-data-1.csv` with the location of your CSV file.
 
